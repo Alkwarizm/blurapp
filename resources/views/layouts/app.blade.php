@@ -24,7 +24,7 @@
         <main class="main flex-column">
             <nav class="navbar navbar-expand-md navbar-light ">
                 <div class="container">
-                    <a class="navbar-brand" href="http://blurrapp.teamalfy.online">
+                    <a class="navbar-brand" href="{{ url('/') }}">
                         <img src="{{ asset('img/logo.png') }}" alt="Logo" width="100">
                     </a>
                 </div>
